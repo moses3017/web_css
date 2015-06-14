@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <style type="text/css">
+            .outter {
+                width: 200px;
+                height: 100px;
+                border: 1px solid red;
+            }
+
+            .inner {
+                width: 150px;
+                height: 80px;
+                border: 1px solid blue;
+            }
+
+            .horizontalCenter {
+                margin: 0 auto;
+            }
+
+            .relative {
+                position: relative;
+            }
+
+            .verticalCenter {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+
+            .border {
+                border: 1px solid red;
+            }
+
+            .big {
+                width: 800px; 
+                height: 50px;
+            }
+
+            .small {
+                width: 250px; 
+                height: 40px;   
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="outter">
+            <div class="inner horizontalCenter"></div>
+        </div>
+
+        <div class="outter relative">
+            <div class="inner verticalCenter"></div>
+        </div>
+
+        <div class="big border">
+            <div class="small border"></div>
+            
+        </div>
+    </body>
+</html>
